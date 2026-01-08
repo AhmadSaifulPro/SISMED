@@ -15,6 +15,8 @@
 
 ## 📋 Daftar Isi
 
+- [Apa itu SISMED?](#-apa-itu-sismed)
+- [Perbandingan dengan Sosial Media Populer](#-perbandingan-dengan-sosial-media-populer)
 - [Fitur](#-fitur)
 - [Persyaratan Sistem](#-persyaratan-sistem)
 - [Instalasi](#-instalasi)
@@ -23,6 +25,109 @@
 - [API Endpoints](#-api-endpoints)
 - [Screenshots](#-screenshots)
 - [Lisensi](#-lisensi)
+
+---
+
+## 🤔 Apa itu SISMED?
+
+**SISMED (Sistem Informasi Sosial Media)** adalah platform sosial media berbasis web yang dibangun menggunakan teknologi **PHP Native** dan **MySQL**. Aplikasi ini dirancang sebagai implementasi fungsional dari konsep-konsep yang ada pada platform sosial media populer seperti Instagram, Facebook, dan TikTok.
+
+### Mengapa SISMED Dibuat?
+
+SISMED dikembangkan dengan beberapa tujuan utama:
+
+1. **📚 Tujuan Edukasi** - Sebagai media pembelajaran untuk memahami bagaimana aplikasi sosial media bekerja dari sisi teknis, mulai dari database design, authentication, file handling, hingga real-time messaging.
+
+2. **🏢 Solusi Komunitas** - Dapat digunakan sebagai platform sosial media internal untuk organisasi, sekolah, kampus, atau komunitas yang ingin memiliki platform sendiri tanpa bergantung pada layanan pihak ketiga.
+
+3. **🔧 Customizable** - Karena dibangun dengan PHP Native, aplikasi ini mudah dimodifikasi dan dikustomisasi sesuai kebutuhan spesifik pengguna.
+
+4. **💡 Open Architecture** - Struktur kode yang jelas dan terdokumentasi memudahkan developer untuk mempelajari dan mengembangkan fitur baru.
+
+### Siapa yang Cocok Menggunakan SISMED?
+
+| Target Pengguna | Kegunaan |
+|-----------------|----------|
+| **Mahasiswa/Pelajar** | Belajar konsep web development, database, dan arsitektur aplikasi |
+| **Developer Pemula** | Memahami struktur aplikasi sosial media real-world |
+| **Organisasi/Komunitas** | Platform komunikasi internal yang private dan terkontrol |
+| **Startup** | Base code untuk dikembangkan menjadi produk komersial |
+
+---
+
+## 📊 Perbandingan dengan Sosial Media Populer
+
+Banyak orang bertanya: *"Apa bedanya SISMED dengan Instagram, Facebook, WhatsApp, atau TikTok?"*
+
+Berikut adalah perbandingan lengkapnya:
+
+### 🎯 Tujuan & Skala
+
+| Aspek | IG, FB, WA, TikTok | SISMED |
+|-------|-------------------|--------|
+| **Tujuan Utama** | Platform komersial untuk miliar pengguna dengan monetisasi iklan | Sistem Informasi untuk pembelajaran & komunitas |
+| **Skala Pengguna** | Miliaran user global | Ratusan hingga ribuan user (komunitas) |
+| **Infrastruktur** | Data centers di seluruh dunia | Single server, self-hosted |
+| **Tim Pengembang** | Ratusan hingga ribuan engineer | Bisa dikembangkan 1-5 developer |
+
+### 🛠️ Arsitektur Teknis
+
+| Komponen | Platform Komersial | SISMED |
+|----------|-------------------|--------|
+| **Backend** | Microservices (Java, Python, Erlang, Go, C++) | **PHP Native** - mudah dipelajari |
+| **Database** | NoSQL + SQL hybrid, sharding, replication | **MySQL** - SQL tradisional |
+| **Real-time** | WebSocket + custom protocols | **Long Polling** - sederhana & efektif |
+| **Storage** | CDN global, object storage (AWS S3) | **Local filesystem** |
+| **Caching** | Redis, Memcached, custom solutions | Session-based caching |
+
+### ✅ Fitur yang Sama/Mirip
+
+SISMED mengimplementasikan **core features** yang serupa dengan platform besar:
+
+| Fitur | Instagram | Facebook | TikTok | SISMED |
+|-------|:---------:|:--------:|:------:|:------:|
+| Post Foto/Video | ✅ | ✅ | ✅ | ✅ |
+| Stories (24 jam) | ✅ | ✅ | ❌ | ✅ |
+| Like & Komentar | ✅ | ✅ | ✅ | ✅ |
+| Nested Comments | ✅ | ✅ | ✅ | ✅ |
+| Follow System | ✅ | ✅ | ✅ | ✅ |
+| Direct Messages | ✅ | ✅ | ✅ | ✅ |
+| Notifikasi | ✅ | ✅ | ✅ | ✅ |
+| Explore/Discovery | ✅ | ✅ | ✅ | ✅ |
+| Profile Customization | ✅ | ✅ | ✅ | ✅ |
+| Admin Dashboard | ❌ | ❌ | ❌ | ✅ |
+| Self-Hosted | ❌ | ❌ | ❌ | ✅ |
+
+### ❌ Fitur yang Tidak Ada di SISMED
+
+| Fitur | Alasan Tidak Diimplementasikan |
+|-------|-------------------------------|
+| **AI/ML Recommendations** | Membutuhkan infrastruktur besar & model training |
+| **Video/Voice Calling** | Membutuhkan WebRTC atau third-party service |
+| **End-to-End Encryption** | Kompleksitas kriptografi yang tinggi |
+| **Ads System** | Fokus pada fungsionalitas inti, bukan monetisasi |
+| **Reels/Short Video** | Membutuhkan video processing yang kompleks |
+| **AR Filters** | Membutuhkan teknologi AR khusus |
+
+### 📚 Nilai Pembelajaran
+
+Dengan mempelajari SISMED, Anda akan memahami:
+
+| Konsep | Apa yang Dipelajari |
+|--------|---------------------|
+| **Database Design** | Relasi antar tabel: users, posts, comments, likes, follows, messages |
+| **Authentication** | Session-based auth, middleware pattern, password hashing |
+| **File Upload** | Handling avatar, media posts, validasi tipe & ukuran file |
+| **REST API** | Endpoint design untuk berbagai fitur CRUD |
+| **Security** | SQL injection prevention, XSS protection, CSRF tokens |
+| **MVC Pattern** | Separation of concerns dalam struktur folder |
+| **Real-time Features** | Implementasi chat dengan long polling |
+
+### 💡 Kesimpulan
+
+> **SISMED adalah implementasi fungsional** dari konsep sosial media yang bertujuan untuk pembelajaran dan penggunaan komunitas. Sementara Instagram, Facebook, dan TikTok adalah **produk komersial skala enterprise** dengan infrastruktur dan tim yang jauh lebih besar.
+>
+> Dengan SISMED, Anda bisa memahami **"behind the scenes"** bagaimana platform sosial media bekerja, sekaligus memiliki platform sendiri yang bisa dikustomisasi sesuai kebutuhan.
 
 ---
 
