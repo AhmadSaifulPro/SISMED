@@ -80,35 +80,6 @@ Berikut adalah perbandingan lengkapnya:
 | **Storage** | CDN global, object storage (AWS S3) | **Local filesystem** |
 | **Caching** | Redis, Memcached, custom solutions | Session-based caching |
 
-### ✅ Fitur yang Sama/Mirip
-
-SISMED mengimplementasikan **core features** yang serupa dengan platform besar:
-
-| Fitur | Instagram | Facebook | TikTok | SISMED |
-|-------|:---------:|:--------:|:------:|:------:|
-| Post Foto/Video | ✅ | ✅ | ✅ | ✅ |
-| Stories (24 jam) | ✅ | ✅ | ❌ | ✅ |
-| Like & Komentar | ✅ | ✅ | ✅ | ✅ |
-| Nested Comments | ✅ | ✅ | ✅ | ✅ |
-| Follow System | ✅ | ✅ | ✅ | ✅ |
-| Direct Messages | ✅ | ✅ | ✅ | ✅ |
-| Notifikasi | ✅ | ✅ | ✅ | ✅ |
-| Explore/Discovery | ✅ | ✅ | ✅ | ✅ |
-| Profile Customization | ✅ | ✅ | ✅ | ✅ |
-| Admin Dashboard | ❌ | ❌ | ❌ | ✅ |
-| Self-Hosted | ❌ | ❌ | ❌ | ✅ |
-
-### ❌ Fitur yang Tidak Ada di SISMED
-
-| Fitur | Alasan Tidak Diimplementasikan |
-|-------|-------------------------------|
-| **AI/ML Recommendations** | Membutuhkan infrastruktur besar & model training |
-| **Video/Voice Calling** | Membutuhkan WebRTC atau third-party service |
-| **End-to-End Encryption** | Kompleksitas kriptografi yang tinggi |
-| **Ads System** | Fokus pada fungsionalitas inti, bukan monetisasi |
-| **Reels/Short Video** | Membutuhkan video processing yang kompleks |
-| **AR Filters** | Membutuhkan teknologi AR khusus |
-
 ### 📚 Nilai Pembelajaran
 
 Dengan mempelajari SISMED, Anda akan memahami:
