@@ -418,9 +418,21 @@ ini_set('display_errors', 1);
 
 ## 📄 Lisensi
 
-© 2024 **SISMED / PulTech**. All rights reserved.
+Proyek ini dilisensikan di bawah **MIT License** - lihat file [LICENSE](LICENSE) untuk detail lengkap.
 
-Aplikasi ini dilindungi oleh hak cipta. Penggunaan, modifikasi, dan distribusi hanya diperbolehkan dengan izin tertulis.
+```
+MIT License
+
+Copyright (c) 2026 Ahmad Saiful / SISMED Team
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software...
+```
+
+> 💡 Dengan lisensi MIT, Anda bebas menggunakan, memodifikasi, dan mendistribusikan aplikasi ini untuk keperluan pribadi maupun komersial.
 
 ---
 
@@ -433,7 +445,7 @@ Kontribusi selalu diterima! Silakan buat pull request atau laporkan issue.
 ## 📧 Kontak
 
 Untuk pertanyaan dan dukungan, hubungi:
-- Email: support@pultech.com
+- Email: ahmadsaifullpro@gmail.com
 - Website: https://pultech.com
 
 ---
